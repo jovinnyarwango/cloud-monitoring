@@ -1,0 +1,9 @@
+[
+  {"url": "https://www.google.com", "max_ms": 2000},
+  {"url": "https://d3vtcypf6er9fb.cloudfront.net", "max_ms": 2000, "expect_text": "Jovin"},
+  {"url": "http://jovin-cloud-resume-2026.s3-website-us-east-1.amazonaws.com", "max_ms": 3000, "expect_text": "Jovin"},
+  {"url": "https://q9bh2nlt22.execute-api.us-east-1.amazonaws.com/Prod/resume", "max_ms": 3000, "expect_json_key": "resume"},
+  {"url": "https://app.storebook.co.tz/api/health", "max_ms": 3000, "expect_json": {"ok": true}},
+  {"url": "https://app.storebook.co.tz", "max_ms": 3000, "expect_text": "StoreBook"},
+  {"url": "https://storebook.co.tz", "max_ms": 3000, "expect_text": "StoreBook"}
+]
